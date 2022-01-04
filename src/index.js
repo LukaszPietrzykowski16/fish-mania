@@ -5,6 +5,8 @@ import Content from './Content';
 import About from './About';
 import Subsection from './Subsection';
 import Opinion from './Opinion';
+import Number from './Number';
+import Footer from './Footer';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,6 +15,8 @@ ReactDOM.render(
     <About /> 
     <Subsection />
     <Opinion />
+    <Number />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
