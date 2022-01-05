@@ -4,11 +4,25 @@
     box-sizing: border-box;
 }
 
+:root{
+    --background: #FFF8FF;
+    --green: #8DFA52;
+    --blue: #5FBEFA;
+}
+
+body {
+    background-color: var(--background);
+}
+
 nav 
 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.hide{
+    display: none;
 }
 
 .sub-nav
@@ -60,14 +74,13 @@ nav
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
-    background-color: rgb(11, 121, 165);
+    background-color: var(--blue);
 }
 
 .opinion-class
 {
     display: flex;
-    flex-wrap: wrap;
+  
     width: 50vw;
     margin: auto;
     align-items: center;
@@ -76,6 +89,13 @@ nav
     text-align: center;
 }
 
+.clients-opinion
+{
+    
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid var(--blue)
+}
 
 footer {
     display: flex;
