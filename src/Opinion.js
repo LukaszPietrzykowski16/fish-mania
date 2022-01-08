@@ -26,9 +26,6 @@ const Opinion = ()  => {
       }
   ]
 
- const newClient = clients.map((client) => {
-    return (client.name)
- })
 
 return (
       
@@ -38,9 +35,9 @@ return (
               left
           </div>
           <div className='clients-opinion'>
-              <h5> {newClient} </h5>
+              <h5> Adam Bruh </h5>
               
-              <p> </p>
+              <p>loreem ipsum loreem ipsum loreem ipsum loreem ipsum loreem ipsum loreem ipsum loreem ipsum loreem ipsum loreem ipsum loreem ipsum loreem ipsum </p>
               
           </div>
           <div className='left'>
