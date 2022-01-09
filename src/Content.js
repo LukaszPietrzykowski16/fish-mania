@@ -8,6 +8,7 @@ const Content = ()  => {
     
   useEffect(() => {
     const interval = setInterval(() => {
+      
       if (text === 'random title') {
         setText('hello world');
       } else {

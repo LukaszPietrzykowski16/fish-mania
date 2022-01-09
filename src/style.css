@@ -90,7 +90,7 @@ nav
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+ 
 }
 
 .opinion-class
@@ -123,6 +123,13 @@ footer {
 .string{
     color: white;
     font-size: 4em;
+}
+
+.number
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
