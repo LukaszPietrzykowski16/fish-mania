@@ -132,6 +132,26 @@ footer {
     justify-content: center;
 }
 
+.numbers-counter {
+    text-align: center;
+    padding: 20px;
+}
+
+.inc-number{
+    color: var(--green);
+    font-size: 5em;
+}
+
+.footer-brand {
+    width: 20vw;
+    text-align: center;
+}
+
+.footer-brand
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
 @media (max-width: 1100px)
 {

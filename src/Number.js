@@ -22,12 +22,12 @@ const Number = ()  => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      if (value < 100) {
+      if (value < 300) {
         setValue(value+1);
       } else {
-        setValue(100);
+        setValue(300);
       }
-    }, 50 ) 
+    }, 10 ) 
     return () => {
       clearInterval(interval);
     }
@@ -38,7 +38,7 @@ const Number = ()  => {
       <div className='number'>
           <div className='numbers-counter'>
               <div className='inc-number'>
-              {value}
+              {value + 100 }
               </div>
               <div className='number-text'>
                   Some text  
@@ -47,7 +47,7 @@ const Number = ()  => {
           </div>
           <div className='numbers-counter'>
               <div className='inc-number'>
-              {value}
+              {value + 20}
               </div>
               <div className='number-text'>
                   Some text  
@@ -56,7 +56,7 @@ const Number = ()  => {
           </div>
           <div className='numbers-counter'>
               <div className='inc-number'>
-              {value}
+              {value + 85}
               </div>
               <div className='number-text'>
                   Some text  
