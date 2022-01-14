@@ -23,6 +23,11 @@ const Opinion = ()  => {
         id: 3,
         name: 'Adam Bruh4', 
         opinion: 'loreem ipsum loreem ipsum loreem ipsum loreem ipsum loreem ipsum loreem ipsum loreem ipsum loreem ipsum loreem ipsum loreem ipsum loreem ipsum'
+      },
+      {
+        id: 4,
+        name: 'heheheeheh', 
+        opinion: 'loreem ipsum loreem ipsum loreem ipsum loreem ipsum loreem ipsum loreem ipsum loreem ipsum loreem ipsum loreem ipsum loreem ipsum loreem ipsum'
       }
   ]
 

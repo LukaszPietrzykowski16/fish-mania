@@ -96,7 +96,7 @@ nav
 .opinion-class
 {
     display: flex;
-    width: 50vw;
+    width: 90vw;
     margin: auto;
     align-items: center;
     justify-content: center;
@@ -106,7 +106,7 @@ nav
 
 .clients-opinion
 {
-    
+    width: 30vw;
     padding: 20px;
     border-radius: 20px;
     border: 2px solid var(--blue)
@@ -153,6 +153,61 @@ footer {
     margin-bottom: 100px;
 }
 
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    align-items: end;
+}
+
+.gallery-item img {
+    border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 100%;
+}
+
+.gallery-open {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   
+}
+
+.exit{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: 20px;
+    
+}
+
+.left-arrow {
+    position: fixed;
+    left: 0;
+    margin: 20px;
+ 
+}
+
+.right-arrow {
+    position: fixed;
+    right: 0;
+    margin: 20px;
+}
+
+.gallery-open img {
+    opacity: 1;
+}
+.gallery-close {
+    display: none;
+}
+
 @media (max-width: 1100px)
 {
     .main-content
@@ -183,6 +238,17 @@ footer {
       height: 100%;
       min-width: 400px;
     } 
+
+    .container-class
+    {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    padding: 100px;
+    background-color: var(--blue);
+    }
+
+    
 }
 
 @media (max-width: 850px)
@@ -218,18 +284,34 @@ footer {
     } 
 
     .container-class
-{
+    {
     display: flex;
     flex-wrap: wrap;
-    width: 90vw;
-    padding: 20px;
-    border: white 1px solid;
-}
+    width: 100vw;
+    padding: 40px;
+    background-color: var(--blue);
+    }
 
-.text-class
-{
+    .text-class
+    {
     padding: 10px;
     text-align: center;
-}
+    }
+
+    .clients-opinion
+    {
+        width: 70vw;
+        padding: 20px;
+        border-radius: 20px;
+        border: 2px solid var(--blue)
+    }
     
+    .number
+    {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    }
+
 }
