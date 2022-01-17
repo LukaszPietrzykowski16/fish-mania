@@ -5,8 +5,9 @@ import Content from './Content';
 import About from './About';
 import Subsection from './Subsection';
 import Opinion from './Opinion';
-import Gallery from './Gallery';
+import Galery from './Galery';
 import Number from './Number';
+import Textes from './Textes';
 import Footer from './Footer';
 
 
@@ -17,8 +18,9 @@ ReactDOM.render(
     <About /> 
     <Subsection />
     <Opinion />
-    <Gallery />
+    <Galery />
     <Number />
+    <Textes />
     <Footer />
   </React.StrictMode>,
   document.getElementById('root')
