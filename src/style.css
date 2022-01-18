@@ -14,11 +14,12 @@ body {
     background-color: var(--background);
 }
 
-nav 
+.navigation
 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 
 .hide{
@@ -29,6 +30,14 @@ nav
 {
     margin: 2em;
 }
+
+a:link, a:visited {
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
 
 .background-img
 {
