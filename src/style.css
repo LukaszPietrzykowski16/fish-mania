@@ -14,6 +14,23 @@ body {
     background-color: var(--background);
 }
 
+button {
+    background-color: var(--green); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 2s;
+  }
+
+button:hover {
+    background-color: var(--blue)
+    
+}
+
 .navigation
 {
     display: flex;
@@ -231,6 +248,49 @@ footer {
 }
 .gallery-close {
     display: none;
+}
+
+
+.overlay {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.493);
+  
+    width: 100%;
+    height: 100%;
+}
+
+.some-class {
+    background-color: blanchedalmond;
+    width: 50vw;
+    padding: 20px;
+    border: solid 2px var(--blue);
+    border-radius: 20px;
+}
+
+.exit-button {
+    text-align: right;
+    color: var(--blue);
+}
+
+.fishes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fish1 {
+   margin-bottom: 100px;
+    
+
+}
+
+.fish2 {
+    position: relative;
+    top: 0;
+    left: 250;
+    
 }
 
 @media (max-width: 1100px)

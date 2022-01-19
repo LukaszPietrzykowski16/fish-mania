@@ -1,5 +1,4 @@
 import React from 'react';
-
 import ReactDOM from 'react-dom';
 import App from './App';
 import Content from './Content';
@@ -10,6 +9,7 @@ import Galery from './Galery';
 import Number from './Number';
 import Textes from './Textes';
 import Footer from './Footer';
+import Fishes from './Fishes';
 
 export default function Home() {
     return (
@@ -17,6 +17,7 @@ export default function Home() {
         <Content /> 
         <About /> 
         <Subsection />
+        <Fishes />
         <Opinion />
         <Galery />
         <Number />

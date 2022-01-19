@@ -1,4 +1,5 @@
-import React, {useEffect, useRef } from 'react';
+import React, {useEffect, useState } from 'react';
+import ReactDom from 'react-dom';
 import './style.css';
 import image from './fishstore.jpg';
 import  gsap from 'gsap';
@@ -28,7 +29,9 @@ const About = ()  => {
             
     })
 
-    return (
+    const [popUp, SetPopUp] = useState(false)
+
+    return  (
     <main className='main-content'>
         <div className='main-content-class-image'>
             <img src={image}/>
@@ -37,10 +40,21 @@ const About = ()  => {
             <h1> Some header </h1>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat magna sagittis nibh interdum malesuada. Proin sed condimentum purus. Aliquam erat volutpat. Praesent nec dolor eget erat condimentum rhoncus. Morbi feugiat scelerisque ligula, at hendrerit risus lacinia ut. Aenean purus mi, porttitor nec porta quis, fermentum quis magna. Fusce imperdiet lectus sit amet eros pharetra aliquam. Etiam tempor commodo tortor. 
        
-        <button> More </button>
+        <button onClick={() => SetPopUp(true)}> More </button>
+        </div>
+        <div className={popUp ? "gallery-open": "gallery-close"}>
+        <div className='overlay'>
+            <div className='some-class'>
+            <div className='exit-button' onClick={() => SetPopUp(false)}> X </div>
+            <h1> Some header </h1>
+            <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat magna sagittis nibh interdum malesuada.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat magna sagittis nibh interdum malesuada. </p>
+            </div>
+        </div>
         </div>
     </main>
       
+   
+    
   )
 }
 

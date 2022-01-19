@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50mm" height="50mm" version="1.1" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+<g>
+<path d="m20.152 39.785c36.248-9.0002 37.724-19.006 1.0578-30.089 0.07479 7.3935 14.754 3.1598-3.2556 12.247-8.558-4.1707-7.1976 12.696-0.56844 5.426 8.5573 5.9354 11.786 6.7623 2.7663 12.416z" fill="#8dfa52"/>
+<ellipse cx="39.426" cy="21.659" rx="1.9379" ry="1.4211" fill="#2c2c2c" stroke-dashoffset=".63496" stroke-linejoin="round" stroke-width="9.2604" style="paint-order:fill markers stroke"/>
+<path d="m24.724 32.537 0.98185-15.038" fill="none"/>
+<path d="m17.386 27.369 0.56844-5.426c-14.922-28.108-27.321 41.31-0.56844 5.426z" fill="#5fbefa"/>
+<path d="m24.724 32.537c4.253-7.3026 3.3561-11.601 0.98185-15.038l-8.0422 7.1184z" fill="#5ffab6"/>
+<ellipse cx="10.57" cy="22.079" rx="3.0598" ry="3.4423" fill="#8dfa52" stroke="#8dfa52" stroke-dashoffset=".63496" stroke-linejoin="round" stroke-width=".10583" style="paint-order:fill markers stroke"/>
+</g>
+<path d="m17.954 21.943c-0.71385 1.2095-2.0607 2.0514-0.56844 5.426l7.3381 5.1676c-3.3279-3.0343-2.9863-5.063-2.6711-7.2924 0.38187-2.7015 1.3435-5.4698 3.653-7.7454z" fill="#5fe8fa"/>
+</svg>

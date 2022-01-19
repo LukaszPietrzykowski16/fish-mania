@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './style.css';
-
+import ReactDOM from 'react-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowCircleRight } from '@fortawesome/free-solid-svg-icons';
+import { faArrowCircleLeft } from '@fortawesome/free-solid-svg-icons';
 
 
 const Opinion = ()  => {
@@ -67,18 +70,17 @@ const Opinion = ()  => {
   }
  
 return (
-      
       <div className='opinion-class'>
           
           <div className='left' onClick={() => checkValueLeft()}>
-              left
+          <FontAwesomeIcon icon={ faArrowCircleLeft } />
           </div>
           <div className='clients-opinion'>
               <h5> {clientName[value]} </h5> 
               <p>{opinion[value]}  </p> 
           </div>
           <div className='left' onClick={() => checkValueRight()}>
-              right
+          <FontAwesomeIcon icon={ faArrowCircleRight  } />
           </div>
       </div>
   )

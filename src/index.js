@@ -7,7 +7,10 @@ ReactDOM.render(
   <React.StrictMode>
     <Components/>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root'),
+  
 );
+
+
 
 
